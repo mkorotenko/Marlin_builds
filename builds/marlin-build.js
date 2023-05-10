@@ -1,9 +1,9 @@
 module.exports = {
     board_env: "STM32F103RE_creality",
-    active: true,
+    active: false,
     meta: {
-        stable_name: "ender_3_4.2.2-{{marlin_version}}-{{uid}}",
-        nightly_name: "ender_3_4.2.2-{{current_date}}-{{uid}}"
+        stable_name: "ender_3_4.2.2-STM32-{{marlin_version}}-{{uid}}",
+        nightly_name: "ender_3_4.2.2-STM32-{{current_date}}-{{uid}}"
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
@@ -15,7 +15,9 @@ module.exports = {
         enable: [
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
-            "BED_TRAMMING_INCLUDE_CENTER"
+            "BED_TRAMMING_INCLUDE_CENTER",
+            ["SERIAL_PORT_3", 1],
+            ["BAUDRATE_3", 250000]
         ],
         disable: []
     },
