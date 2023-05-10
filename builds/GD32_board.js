@@ -1,5 +1,5 @@
 module.exports = {
-    extends: "builds/marlin-build.js"
+    extends: "builds/marlin-build.js",
     board_env: "GD32F303RET6_creality_maple",
     active: true,
     meta: {
