@@ -2,8 +2,8 @@ module.exports = {
     board_env: "STM32F103RE_creality",
     active: true,
     meta: {
-        stable_name: "ender_3_4.2.2-{{marlin_version}}-{{uid}}",
-        nightly_name: "ender_3_4.2.2-{{current_date}}-{{uid}}"
+        stable_name: "ender_3_4.2.2-STM-{{marlin_version}}-{{uid}}",
+        nightly_name: "ender_3_4.2.2-STM-{{current_date}}-{{uid}}"
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
