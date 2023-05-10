@@ -16,8 +16,8 @@ module.exports = {
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
-            ["SERIAL_PORT_2", 1],
-            ["BAUDRATE_2", 250000]
+            ["SERIAL_PORT_2", "1"],
+            ["BAUDRATE_2", "250000"]
         ],
         disable: []
     },
