@@ -1,5 +1,5 @@
 module.exports = {
-    extends: "builds/marlin-build.js"
+    extends: "builds/marlin-build.js",
     board_env: "STM32F103RE_creality",
     active: true,
     meta: {
