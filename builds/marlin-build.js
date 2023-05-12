@@ -16,15 +16,15 @@ module.exports = {
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
-            ["SERIAL_PORT_2", "1"],
-            ["BAUDRATE_2", "250000"]
+            "LINEAR_ADVANCE"
         ],
         disable: []
     },
     configuration_adv: {
         enable: [
             //octoprint
-            "HOST_ACTION_COMMANDS"
+            "HOST_ACTION_COMMANDS",
+            "LINEAR_ADVANCE"
         ],
         disable: []
     }
