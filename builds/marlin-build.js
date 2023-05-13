@@ -14,9 +14,12 @@ module.exports = {
     configuration: {
         enable: [
             //standard leveling menu helper
-            "LCD_BED_TRAMMING",
-            "BED_TRAMMING_INCLUDE_CENTER",
-            "LINEAR_ADVANCE"
+            "MESH_BED_LEVELING",
+            "LCD_BED_LEVELING",
+            "ENABLE_PIDBED",
+            "LINEAR_ADVANCE",
+            "CUSTOM_PRINTER_NAME",
+            ["USER_PRINTER_NAME", "M_2.1.2"]
         ],
         disable: []
     },
@@ -24,7 +27,7 @@ module.exports = {
         enable: [
             //octoprint
             "HOST_ACTION_COMMANDS",
-            "LINEAR_ADVANCE"
+            "HOTEND_IDLE_TIMEOUT"
         ],
         disable: []
     }
