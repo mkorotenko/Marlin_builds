@@ -2,8 +2,8 @@ module.exports = {
     board_env: "STM32F103RE_creality",
     active: true,
     meta: {
-        stable_name: "ender_3_4.2.2-STM-{{marlin_version}}-{{uid}}",
-        nightly_name: "ender_3_4.2.2-STM-{{current_date}}-{{uid}}"
+        stable_name: "Marlin.2.0.x_4.2.2-STM-{{marlin_version}}-{{uid}}",
+        nightly_name: "Marlin.2.1.2_4.2.2-STM-{{current_date}}-{{uid}}"
     },
     based_on: {
         repo: "https://github.com/MarlinFirmware/Configurations/",
@@ -17,6 +17,7 @@ module.exports = {
             "MESH_BED_LEVELING",
             "LCD_BED_LEVELING",
             "ENABLE_PIDBED",
+            "LIN_ADVANCE",
             "LINEAR_ADVANCE",
             "CUSTOM_PRINTER_NAME",
             ["USER_PRINTER_NAME", "M_2.1.2"]
