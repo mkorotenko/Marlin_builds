@@ -1,7 +1,7 @@
 {
     "builds/marlin-build.js": {
-        "version": "2.0.9.6",
+        "version": "2.1.2.1",
         "md5": "7cef1e547c6314a17265da169e1573ab",
-        "assetId": 108504044
+        "assetId": 108675529
     }
 }
